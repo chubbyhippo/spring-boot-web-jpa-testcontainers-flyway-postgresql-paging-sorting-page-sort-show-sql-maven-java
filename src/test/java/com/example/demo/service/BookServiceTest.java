@@ -2,7 +2,7 @@ package com.example.demo.service;
 
 import com.example.demo.entity.Book;
 import com.example.demo.repository.BookRepository;
-import com.github.javafaker.Faker;
+import net.datafaker.Faker;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
