@@ -2,8 +2,8 @@ package com.example.demo.config;
 
 import com.example.demo.entity.Book;
 import com.example.demo.repository.BookRepository;
-import com.github.javafaker.Faker;
 import lombok.RequiredArgsConstructor;
+import net.datafaker.Faker;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
