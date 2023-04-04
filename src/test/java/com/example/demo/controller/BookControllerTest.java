@@ -2,7 +2,7 @@ package com.example.demo.controller;
 
 import com.example.demo.entity.Book;
 import com.example.demo.service.BookService;
-import com.github.javafaker.Faker;
+import net.datafaker.Faker;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
