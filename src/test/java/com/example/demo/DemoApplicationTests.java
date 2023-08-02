@@ -22,7 +22,7 @@ class DemoApplicationTests {
                         .build())
                 .exchange()
                 .expectBody()
-                .jsonPath("$.totalElements").isEqualTo(1);
+                .jsonPath("$.totalElements").isEqualTo(100);
     }
 
 
