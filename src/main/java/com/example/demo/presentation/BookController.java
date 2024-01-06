@@ -1,5 +1,6 @@
 package com.example.demo.presentation;
 
+import com.example.demo.application.BookDto;
 import com.example.demo.domain.Book;
 import com.example.demo.application.BookService;
 import lombok.RequiredArgsConstructor;
@@ -17,7 +18,7 @@ public class BookController {
     private final BookService bookService;
 
     @GetMapping("/books")
-    public Page<Book> getBooks(@RequestParam int page, @RequestParam int size) {
+    public Page<BookDto> getBooks(@RequestParam int page, @RequestParam int size) {
         return bookService.getBooks(page, size);
     }
 }
