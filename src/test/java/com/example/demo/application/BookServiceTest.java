@@ -1,6 +1,5 @@
 package com.example.demo.application;
 
-import com.example.demo.application.BookService;
 import com.example.demo.domain.Book;
 import com.example.demo.domain.BookRepository;
 import net.datafaker.Faker;
