@@ -13,7 +13,6 @@ class DemoApplicationTests {
     @Test
     void shouldGetPageOfBook() {
 
-
         webTestClient
                 .get()
                 .uri(uriBuilder -> uriBuilder.path("/api/books")
