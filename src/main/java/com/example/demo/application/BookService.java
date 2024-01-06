@@ -1,6 +1,5 @@
 package com.example.demo.application;
 
-import com.example.demo.domain.Book;
 import com.example.demo.domain.BookRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
