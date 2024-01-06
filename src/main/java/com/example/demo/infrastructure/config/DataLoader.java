@@ -1,4 +1,4 @@
-package com.example.demo.config;
+package com.example.demo.infrastructure.config;
 
 import com.example.demo.entity.Book;
 import com.example.demo.repository.BookRepository;
