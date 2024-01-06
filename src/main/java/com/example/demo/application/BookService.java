@@ -14,8 +14,16 @@ public class BookService {
 
     private final BookRepository bookRepository;
 
-    public Page<Book> getBooks(int page, int size) {
-        return bookRepository.findAll(PageRequest.of(page, size, Sort.by(Sort.Direction.DESC, "title")));
+    public Page<BookDto> getBooks(int page, int size) {
+        return bookRepository.findAll(PageRequest.of(page, size, Sort.by(Sort.Direction.DESC, "title")))
+                .map(book -> BookDto.builder()
+                        .id(book.getId())
+                        .isbn(book.getIsbn())
+                        .title(book.getTitle())
+                        .author(book.getAuthor())
+                        .price(book.getPrice())
+                        .publisher(book.getPublisher())
+                        .build());
     }
 
 }
