@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.example.demo.application;
 
 import com.example.demo.domain.Book;
 import com.example.demo.domain.BookRepository;

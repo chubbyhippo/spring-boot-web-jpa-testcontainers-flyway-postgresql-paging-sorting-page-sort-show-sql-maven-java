@@ -1,7 +1,7 @@
 package com.example.demo.presentation;
 
 import com.example.demo.domain.Book;
-import com.example.demo.service.BookService;
+import com.example.demo.application.BookService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.GetMapping;

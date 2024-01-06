@@ -1,7 +1,7 @@
 package com.example.demo.controller;
 
 import com.example.demo.domain.Book;
-import com.example.demo.service.BookService;
+import com.example.demo.application.BookService;
 import net.datafaker.Faker;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
