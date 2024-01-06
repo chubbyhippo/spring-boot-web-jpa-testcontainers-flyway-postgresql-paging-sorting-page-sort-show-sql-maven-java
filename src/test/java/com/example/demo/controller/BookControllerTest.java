@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import com.example.demo.application.BookDto;
 import com.example.demo.domain.Book;
 import com.example.demo.application.BookService;
 import net.datafaker.Faker;
@@ -26,7 +27,7 @@ class BookControllerTest {
     @Test
     void shouldGetBooks() {
         var faker = new Faker();
-        var books = List.of(new Book(1L,
+        var books = List.of(new BookDto(1L,
                 faker.number().digits(13),
                 faker.name().title(),
                 faker.name().fullName(),
