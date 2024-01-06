@@ -1,7 +1,7 @@
 package com.example.demo.service;
 
-import com.example.demo.entity.Book;
-import com.example.demo.repository.BookRepository;
+import com.example.demo.domain.entity.Book;
+import com.example.demo.domain.repository.BookRepository;
 import net.datafaker.Faker;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
