@@ -1,7 +1,6 @@
-package com.example.demo.controller;
+package com.example.demo.presentation;
 
 import com.example.demo.application.BookDto;
-import com.example.demo.domain.Book;
 import com.example.demo.application.BookService;
 import net.datafaker.Faker;
 import org.junit.jupiter.api.Test;
