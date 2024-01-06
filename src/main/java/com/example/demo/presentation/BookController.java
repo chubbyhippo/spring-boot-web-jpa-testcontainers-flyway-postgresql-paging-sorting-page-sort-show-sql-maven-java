@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.demo.presentation;
 
 import com.example.demo.domain.Book;
 import com.example.demo.service.BookService;
