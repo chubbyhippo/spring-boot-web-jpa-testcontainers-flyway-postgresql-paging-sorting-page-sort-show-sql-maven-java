@@ -1,6 +1,6 @@
-package com.example.demo.domain.repository;
+package com.example.demo.domain;
 
-import com.example.demo.domain.entity.Book;
+import com.example.demo.domain.Book;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 

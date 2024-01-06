@@ -1,7 +1,7 @@
-package com.example.demo.infrastructure.config;
+package com.example.demo.infrastructure;
 
-import com.example.demo.domain.entity.Book;
-import com.example.demo.domain.repository.BookRepository;
+import com.example.demo.domain.Book;
+import com.example.demo.domain.BookRepository;
 import lombok.RequiredArgsConstructor;
 import net.datafaker.Faker;
 import org.springframework.boot.CommandLineRunner;

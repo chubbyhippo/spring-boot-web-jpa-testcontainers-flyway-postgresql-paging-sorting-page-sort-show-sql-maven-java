@@ -1,7 +1,7 @@
 package com.example.demo.infrastructure;
 
-import com.example.demo.domain.entity.Book;
-import com.example.demo.domain.repository.BookRepository;
+import com.example.demo.domain.Book;
+import com.example.demo.domain.BookRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

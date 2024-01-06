@@ -1,6 +1,6 @@
 package com.example.demo.controller;
 
-import com.example.demo.domain.entity.Book;
+import com.example.demo.domain.Book;
 import com.example.demo.service.BookService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
