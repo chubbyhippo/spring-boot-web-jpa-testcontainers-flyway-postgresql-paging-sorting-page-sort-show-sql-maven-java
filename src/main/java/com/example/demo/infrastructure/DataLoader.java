@@ -2,6 +2,7 @@ package com.example.demo.infrastructure;
 
 import com.example.demo.domain.Book;
 import com.example.demo.domain.BookRepository;
+import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import net.datafaker.Faker;
 import org.springframework.boot.CommandLineRunner;
@@ -18,7 +19,7 @@ public class DataLoader {
 
     private final BookRepository bookRepository;
 
-    @Bean
+    @PostConstruct
     public CommandLineRunner loadBookData() {
         return args -> {
             var faker = new Faker();
