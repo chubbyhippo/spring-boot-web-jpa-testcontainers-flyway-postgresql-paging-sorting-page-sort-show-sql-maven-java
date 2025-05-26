@@ -6,8 +6,8 @@ import net.datafaker.Faker;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.data.domain.PageImpl;
+import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.reactive.server.WebTestClient;
 
 import java.util.List;
@@ -20,7 +20,7 @@ class BookControllerTest {
 
     @Autowired
     private WebTestClient webTestClient;
-    @MockBean
+    @MockitoBean
     private BookService bookService;
 
     @Test
