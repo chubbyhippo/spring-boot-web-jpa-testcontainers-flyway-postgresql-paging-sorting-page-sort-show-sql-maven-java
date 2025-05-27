@@ -9,3 +9,7 @@ spring:
         generate_statistics: true
   profiles:
     active: dev
+logging:
+  level:
+    org:
+      springframework: debug
