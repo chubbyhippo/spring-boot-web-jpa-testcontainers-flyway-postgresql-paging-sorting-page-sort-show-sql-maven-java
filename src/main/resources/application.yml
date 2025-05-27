@@ -16,6 +16,7 @@ logging:
   level:
     sql: debug
     org:
+      springframework: debug
       hibernate:
         orm:
           jdbc:
