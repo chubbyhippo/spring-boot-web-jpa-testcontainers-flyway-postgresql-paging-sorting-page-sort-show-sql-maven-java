@@ -7,6 +7,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 @RequiredArgsConstructor
 public class BookRepositoryImpl implements BookRepository {
@@ -19,8 +21,8 @@ public class BookRepositoryImpl implements BookRepository {
     }
 
     @Override
-    public void save(Book book) {
-        bookJpaRepository.save(book);
+    public void saveAll(List<Book> book) {
+        bookJpaRepository.saveAll(book);
     }
 
 }
